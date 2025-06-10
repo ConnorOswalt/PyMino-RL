@@ -37,9 +37,6 @@ PyMino-RL/
 ├── train_pymino_bot_weighted_amp_v5_warmup_v3.py  # Main training script
 ├── pymino_train_eval_amp_v3.py                   # Evaluation script
 │
-├── logs/                                         # Directory for training logs
-├── models/                                       # Directory for saved models
-│
 ├── requirements.txt                              # Python package dependencies
 ├── README.md                                     # This file!
 └── LICENSE                                       # License information

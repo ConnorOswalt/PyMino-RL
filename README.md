@@ -29,14 +29,12 @@ A deep reinforcement learning and supervised learning framework for training an 
 PyMino-RL/
 │
 ├── pymino/
-│   ├── core_game.py         # Game logic and mechanics
-│   ├── data_loader.py       # Data loading and preprocessing
-│   ├── model.py             # PyMinoNet CNN architecture
-│   └── utils.py             # Utility functions (augmentation, metrics, etc.)
-│
-├── train_pymino_bot_weighted_amp_v5_warmup_v3.py  # Main training script
-├── pymino_train_eval_amp_v3.py                   # Evaluation script
-│
+│   ├── pyMino.py                                      # Base game, all core functions
+│   ├── pyMino_analog.py                               # A CLI driver for base pyMino.py
+│   ├── pymino_train_eval_amp_v5.py                    # Evaluation Script for Models
+│   └── train_pymino_bot_weighted_amp_warmup_v5.py     # Utility functions (augmentation, metrics, etc.)
+│   └── pyMino_bruteforce_1.py                         # A bruteforce algorithm for Blockudoku for data collection for training models
+|
 ├── requirements.txt                              # Python package dependencies
 ├── README.md                                     # This file!
 └── LICENSE                                       # License information
